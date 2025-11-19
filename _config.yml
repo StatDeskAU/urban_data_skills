@@ -1,0 +1,27 @@
+# Site settings
+title: Urban Data Skills
+description: >-
+  Urban data skills and learning pathways with a focus on Australian data sources.
+  A resource for the Planning Institute of Australia's Urban Data Network.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+theme: minima
+markdown: kramdown
+
+# GitHub Pages settings
+repository: StatDeskAU/urban_data_skills
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - resources.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
