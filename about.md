@@ -2,50 +2,69 @@
 layout: page
 title: About
 permalink: /about/
+nav_order: 8
 ---
 
-# About Urban Data Skills
+# About This Resource
 
 ## Purpose
 
-This website serves as a public resource for urban data skills development, with a particular focus on the Australian context and the needs of planning professionals.
+This site is a companion resource for the **Planning Institute of Australia's Urban Data Network**, specifically supporting the **Bytes & Banter** presentation and workshop series.
 
-## Background
+It provides planning professionals with practical guidance on building data skills — from understanding common pain points to navigating structured learning pathways and finding the right tools and data sources for urban data work in Australia.
 
-Urban planning is increasingly data-driven, with planners needing to:
-- Access and interpret diverse datasets
-- Apply analytical methods to support evidence-based decision making
-- Communicate insights effectively to stakeholders and communities
-- Understand the limitations and appropriate use of data in planning contexts
+## The Urban Data Network
 
-## The Planning Institute of Australia's Urban Data Network
+The Urban Data Network is an initiative of the Planning Institute of Australia focused on building capability and knowledge sharing among urban planning professionals. The network aims to:
 
-The Planning Institute of Australia (PIA) recognizes the critical importance of data literacy in modern planning practice. The Urban Data Network brings together planners, data professionals, and researchers to:
+- **Connect** urban planners with essential data sources and tools
+- **Develop** data literacy and analytical skills in the planning profession
+- **Share** best practices for using data in urban planning and policy
+- **Foster** collaboration and knowledge exchange across jurisdictions
 
-- **Build capability**: Develop practical data skills among planning professionals
-- **Share knowledge**: Create a community of practice for exchanging insights and experiences
-- **Support innovation**: Encourage the use of emerging data sources and analytical methods
-- **Advocate for access**: Promote improved access to data and tools for planning practice
+The network operates through LinkedIn, PIA chapters, and events like the Bytes & Banter sessions.
 
-## Learning Approach
+- [Urban Data Network on LinkedIn](https://www.linkedin.com/groups/14617445/)
+- [PIA PlanTech](https://www.planning.org.au/pia/policy-advocacy/plantech.aspx?hkey=360d84d4-a1ef-4f51-95ca-44aaba914de2)
+- [Planning Institute of Australia](https://www.planning.org.au/)
 
-Our approach to urban data skills development emphasizes:
+## Bytes & Banter Series
 
-1. **Practical application**: Focus on real-world planning challenges and use cases
-2. **Australian context**: Highlight data sources, tools, and examples relevant to Australian planning
-3. **Progressive skill building**: Provide pathways from foundational to advanced capabilities
-4. **Collaborative learning**: Foster peer-to-peer learning and knowledge sharing
+**Bytes & Banter** sessions are informal, knowledge-sharing events for planning professionals working with data. Each session focuses on a practical topic relevant to urban data work.
 
-## Contact
+### Current Presentation
+**Urban Data: From Pain Points to Learning Pathways**
+- Presented at: PIA Urban Data Network — WA
+- Date: 25 March 2026
+- Presenter: Stuart McKnight (Solve Property / StatDesk)
 
-For questions about this resource or the Urban Data Network, please contact the Planning Institute of Australia through their official channels at [www.planning.org.au](https://www.planning.org.au).
+The presentation covers the common challenges that urban data professionals face in finding and analysing data, and provides structured learning pathways for building the skills needed to work more effectively.
+
+## How to Use This Site
+
+This site is designed as a **living resource** that will be updated as new tools, data sources, and learning opportunities emerge. It is structured around the presentation content but provides significantly more detail and links than a slide deck can accommodate.
+
+**Navigation:**
+- **[Pain Points](pain-points)** — Understanding the challenges in urban data work
+- **[Learning Pathways](learning-pathways)** — Structured guidance for building skills
+- **[Data Sources](data-sources)** — Guide to Australian urban data sources
+- **[Resources](resources)** — Tools, communities, courses, and reading
 
 ## Contributing
 
-This is an evolving resource that will grow based on community needs and contributions. If you have suggestions for content, resources to share, or would like to contribute to this project, please get in touch through the PIA.
+This resource is maintained to support the planning community. Suggestions for additions, corrections, or improvements are welcome.
+
+The source code for this site is available on GitHub at [StatDeskAU/urban_data_skills](https://github.com/StatDeskAU/urban_data_skills).
+
+## License
+
+This work is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — you are free to use, adapt, and share this content without restriction.
+
+## Contact
+
+**Stuart McKnight**
+Solve Property / StatDesk
 
 ---
 
-## Acknowledgements
-
-This resource has been developed with input from planning professionals, data scientists, and researchers across Australia who are committed to building data capability in the planning profession.
+*Back to [Home →](./)*

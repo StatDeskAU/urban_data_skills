@@ -1,43 +1,42 @@
 # Urban Data Skills
 
-A GitHub Pages resource for urban data skills and learning pathways with a focus on Australian data sources.
+A GitHub Pages companion resource for the **Planning Institute of Australia's Urban Data Network** — *Bytes & Banter* series.
 
 ## About
 
-This repository hosts a public resource developed to support the **Planning Institute of Australia's Urban Data Network**. The site provides:
+This site accompanies presentations delivered through the PIA Urban Data Network, providing planning professionals with practical guidance on building data skills for urban planning work in Australia.
 
-- Information about the Urban Data Network initiative
-- Comprehensive guides to Australian urban data sources
-- Learning pathways for developing data skills in urban planning
-- Resources for planning professionals working with data
+**Current presentation:** *Urban Data: From Pain Points to Learning Pathways* — WA Chapter, 25 March 2026
+
+## Site Structure
+
+| Page | Description |
+|------|-------------|
+| `index.md` | Home page — overview and quick start guide |
+| `pain-points.md` | Common challenges in finding and analysing urban data |
+| `learning-pathways.md` | Structured guidance from foundational to advanced skills |
+| `competency-framework.md` | PIA Digital Planning Core Competencies — career stages, personas, self-assessment, planning values |
+| `ai-and-urban-data.md` | AI as complexity filter, translator, and learning tool — the Sorcerer's Apprentice problem |
+| `data-sources.md` | Curated guide to Australian urban data sources |
+| `resources.md` | Learning platforms, tools, communities, and reading |
+| `about.md` | Background on the initiative and how to use the site |
 
 ## Live Site
 
-Once GitHub Pages is enabled, the site will be available at:
-**https://statdeskau.github.io/urban_data_skills/**
+**[statdeskau.github.io/urban_data_skills](https://statdeskau.github.io/urban_data_skills/)**
 
-## Repository Structure
+## Technical Details
 
-- `index.md` - Home page with Urban Data Network overview
-- `about.md` - Background and purpose of the initiative
-- `resources.md` - Comprehensive data sources and learning resources
-- `_config.yml` - Jekyll site configuration
-- `Gemfile` - Ruby dependencies for GitHub Pages
-- `DEPLOYMENT.md` - Instructions for enabling GitHub Pages
+- Built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/)
+- Theme: [Minima](https://github.com/jekyll/minima)
+- License: [CC0 1.0 Universal](LICENSE)
 
 ## Contributing
 
-This resource is maintained to support the planning community. For questions or suggestions, please contact the Planning Institute of Australia through their official channels.
+Suggestions for additions, corrections, or improvements are welcome. Please open an issue or submit a pull request.
 
-## License
+## Links
 
-See [LICENSE](LICENSE) file for details.
-
-## Deployment
-
-For instructions on enabling GitHub Pages for this repository, see [DEPLOYMENT.md](DEPLOYMENT.md).
-Resources for people wanting to develop skills relating to urban data with a focus on Australian data sources. Draws on:
-
-* [Planning Institute of Australia <https://www.planning.org.au>] - Urban Data Network on [LinkedIn <https://www.linkedin.com/groups/14617445/>] and [PlanTech <https://www.planning.org.au/pia/policy-advocacy/plantech.aspx?hkey=360d84d4-a1ef-4f51-95ca-44aaba914de2>]
-
-
+- [Planning Institute of Australia](https://www.planning.org.au)
+- [PIA Urban Data Network on LinkedIn](https://www.linkedin.com/groups/14617445/)
+- [PIA PlanTech](https://www.planning.org.au/pia/policy-advocacy/plantech.aspx?hkey=360d84d4-a1ef-4f51-95ca-44aaba914de2)

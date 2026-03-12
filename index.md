@@ -1,56 +1,69 @@
 ---
-layout: default
+layout: home
 title: Home
+nav_order: 1
 ---
 
-# Urban Data Skills
+# Urban Data: From Pain Points to Learning Pathways
 
-Welcome to the Urban Data Skills resource hub, developed to support the **Planning Institute of Australia's Urban Data Network**.
+A companion resource for the **Planning Institute of Australia's Urban Data Network** — *Bytes & Banter* series.
 
-## About the Urban Data Network
+---
 
-The Urban Data Network is an initiative focused on building capability and knowledge sharing among urban planning professionals in Australia. This resource aims to:
+## The Challenge
 
-- Connect urban planners with essential data sources and tools
-- Develop data literacy and analytical skills in the planning profession
-- Share best practices for using data in urban planning and policy
-- Foster collaboration and knowledge exchange across jurisdictions
+Data analysts spend roughly **75% of their working day** finding, cleaning, and organising data — not on the analysis that drives decisions. Urban planners face this challenge acutely: data is fragmented across government agencies, published in inconsistent formats, and often locked behind difficult-to-navigate portals.
+
+This resource maps the common **pain points** that urban data professionals encounter and provides structured **learning pathways** to build the skills needed to overcome them.
+
+---
 
 ## What You'll Find Here
 
-This site provides:
+### [Pain Points](pain-points)
+The urban data landscape is full of obstacles — from fragmented sources and inconsistent metadata to technological barriers and skills gaps. Understanding the challenges is the first step to overcoming them.
 
-### 🎓 Learning Pathways
-Structured guidance for developing urban data skills, from beginner to advanced levels, tailored to the needs of Australian planning professionals.
+### [Learning Pathways](learning-pathways)
+Structured guidance from foundational skills through to advanced specialisations, with practical advice on where to start and how to build capability iteratively.
 
-### 📊 Australian Data Sources
-Comprehensive information about key Australian data sources relevant to urban planning, including:
-- Australian Bureau of Statistics (ABS) data
-- State and territory planning datasets
-- Infrastructure and transport data
-- Environmental and climate data
-- Demographic and economic indicators
+### [Competency Framework](competency-framework)
+How PIA's Digital Planning Core Competencies map to practical skills — including self-assessment approaches, career stage expectations, personas for different planning contexts, and the connection between data skills and planning values like equity, sustainability, and public interest.
 
-### 🔧 Tools and Techniques
-Practical guidance on tools and methods for:
-- Data analysis and visualization
-- GIS and spatial analysis
-- Urban modelling and forecasting
-- Evidence-based planning
+### [AI and Urban Data](ai-and-urban-data)
+A framework for using AI at the right level — as a complexity filter, a translator between professional languages, and a learning accelerator — while avoiding the Sorcerer's Apprentice problem of power without understanding.
 
-### 🤝 Community Resources
-- Case studies from Australian planning practice
-- Links to relevant training and development opportunities
-- Connection to the broader urban data community
+### [Australian Data Sources](data-sources)
+A curated guide to key Australian data sources for urban planning — federal, state, and local — including open data portals, spatial datasets, and APIs.
 
-## Getting Started
-
-Whether you're new to working with data in urban planning or looking to advance your skills, this resource is designed to support your journey. Explore the sections above to find the information and guidance you need.
-
-## About This Resource
-
-This site supplements presentations and workshops delivered through the Planning Institute of Australia's Urban Data Network. It serves as a living resource that will grow and evolve based on the needs of the planning community.
+### [Resources & Tools](resources)
+Learning platforms, community groups, essential software tools, and recommended reading for urban data professionals at every level.
 
 ---
 
-*For more information about the Planning Institute of Australia, visit [www.planning.org.au](https://www.planning.org.au)*
+## About the Bytes & Banter Series
+
+This site accompanies presentations delivered through the PIA Urban Data Network's **Bytes & Banter** sessions — informal knowledge-sharing events for planning professionals working with data across Australia.
+
+The current presentation, *Urban Data: From Pain Points to Learning Pathways*, was delivered at the **WA chapter** on **25 March 2026**.
+
+---
+
+## Quick Start
+
+If you're new to urban data work, start here:
+
+1. **Read the [Pain Points](pain-points)** page to understand the common challenges
+2. **Pick a starting point** from the [Learning Pathways](learning-pathways) — foundational skills are the bedrock
+3. **Find a project** that has value to your current work or interests
+4. **Browse the [Resources](resources)** for courses, tools, and communities
+5. **Connect** with the [PIA Urban Data Network on LinkedIn](https://www.linkedin.com/groups/14617445/)
+
+---
+
+## Contact
+
+**Stuart McKnight** — Solve Property / StatDesk
+
+For more about the Planning Institute of Australia, visit [www.planning.org.au](https://www.planning.org.au)
+
+PIA PlanTech: [planning.org.au/plantech](https://www.planning.org.au/pia/policy-advocacy/plantech.aspx?hkey=360d84d4-a1ef-4f51-95ca-44aaba914de2)

@@ -1,27 +1,23 @@
-# Site settings
 title: Urban Data Skills
 description: >-
-  Urban data skills and learning pathways with a focus on Australian data sources.
-  A resource for the Planning Institute of Australia's Urban Data Network.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-
-# Build settings
+  Pain points and learning pathways for urban data professionals.
+  A companion resource for the PIA Urban Data Network's Bytes & Banter series.
+baseurl: "/urban_data_skills"
+url: "https://statdeskau.github.io"
 theme: minima
-markdown: kramdown
 
-# GitHub Pages settings
-repository: StatDeskAU/urban_data_skills
-
-# Navigation
 header_pages:
   - index.md
-  - about.md
+  - pain-points.md
+  - learning-pathways.md
+  - competency-framework.md
+  - ai-and-urban-data.md
+  - data-sources.md
   - resources.md
+  - about.md
 
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor/
-  - README.md
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
