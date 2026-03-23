@@ -2,7 +2,7 @@
 layout: page
 title: Presenting Statistics
 permalink: /presenting-statistics/
-nav_order: 5
+nav_order: 8
 ---
 
 # Presenting Statistics: Style, Standards, and Storytelling
@@ -73,7 +73,7 @@ Use "to" rather than a dash for number ranges in running text: "3,000 to 25,000 
 
 ### Decimal places
 
-Be consistent within a document and match precision to what the data supports. Don't report a figure to 4 decimal places if the underlying data was collected to the nearest whole number. As a general rule, one decimal place is usually sufficient for percentages (e.g., "14.3%") and whole numbers are appropriate for population counts.
+Be consistent within a document and match precision to what the data supports. Don't report a figure to 4 decimal places if the underlying data was collected to the nearest whole number. As a general rule, one decimal place is usually sufficient for percentages (e.g., "14.3%"), and whole numbers are appropriate for population counts.
 
 ### Rounding
 
@@ -135,7 +135,7 @@ The ONS Service Manual provides the most comprehensive guidance on chart design 
 
 ### Chart text and annotation
 
-Every chart needs, at minimum:
+Every chart needs, at a minimum:
 
 - A **title** that describes the main finding or trend — not just the topic. "Dwelling approvals fell sharply in outer suburbs during 2023" is more useful than "Dwelling approvals by region." The ONS recommends that chart titles describe the trend, helping readers understand and remember the key point.
 - A **subtitle** describing the data: measure, geography, time period. "Number of dwelling approvals, Greater Perth SA3s, January 2020 to December 2024."
@@ -163,7 +163,7 @@ The hardest part of presenting statistics isn't the formatting — it's writing 
 
 ### Be precise about what you're reporting
 
-Say "median household income" not "the income." Say "at SA2 level" not "by suburb." Say "as at June 2021" not "currently." Say "based on Census self-reporting" not "the actual figure."
+Say "median household income" not "the income." Say "at SA2 level" not "by suburb." Say "as at June 2021" not "currently." Say "based on Census self-reporting", not "the actual figure."
 
 Imprecise language around statistics is one of the most common problems in planning documents. A sentence like "the population of Joondalup is 170,000" could mean the resident population, the daytime service population, the Census count, or the estimated resident population — and the differences can be substantial.
 
@@ -181,7 +181,7 @@ Where precision is not warranted, say so: "approximately 15,000" rather than "15
 
 **"Up to"** — "Up to 500 new dwellings" could mean any number from zero to 500. It's technically accurate but functionally meaningless. Prefer a range or a specific estimate with caveats.
 
-**"Significant"** — In everyday language this means "important." In statistics it means "unlikely to have occurred by chance." Using "significant" in a planning report without specifying which meaning you intend creates ambiguity. Consider "substantial" or "notable" for the everyday meaning, and "statistically significant" (with a p-value or confidence level) for the technical meaning.
+**"Significant"** — In everyday language, this means "important." In statistics, it means "unlikely to have occurred by chance." Using "significant" in a planning report without specifying which meaning you intend creates ambiguity. Consider "substantial" or "notable" for the everyday meaning, and "statistically significant" (with a p-value or confidence level) for the technical meaning.
 
 **"Average"** — This could mean mean, median, or mode. In planning contexts involving prices, incomes, or processing times, the mean and median often differ substantially because the data is skewed. Always specify which average you're using.
 
