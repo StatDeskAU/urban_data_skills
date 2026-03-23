@@ -76,18 +76,28 @@ Spatial data is central to urban planning. GIS skills allow you to map, analyse,
 - University GIS courses (many available online)
 - YouTube channels focused on spatial analysis
 
+###
+
+**Markdown - introductory point for people new to programming**
+- Markup language that is read and written by AI agents
+- Versatile and leverages into other uses
+
+**Regular expressions (regex)**
+- 
+
 ### Programming for Data Analysis
 
 Programming opens up capabilities far beyond what spreadsheets can offer: automation, web scraping, API interaction, statistical modelling, and reproducible analysis.
 
-**Python — recommended starting point:**
-- **Pandas** — data manipulation and analysis
-- **GeoPandas** — spatial data in Python
-- **Matplotlib / Seaborn** — data visualisation
-- **Scikit-learn** — machine learning basics
-- **Requests / BeautifulSoup** — web scraping and API access
-- **OSMnx** — OpenStreetMap network analysis
-- **Folium** — interactive web maps
+**Python — versatile and powerful:**
+- Learn the fundamentals plus the following packages:
+  - **Pandas** — data manipulation and analysis
+  - **GeoPandas** — spatial data in Python
+  - **Matplotlib / Seaborn** — data visualisation
+  - **Scikit-learn** — machine learning basics
+  - **Requests / BeautifulSoup** — web scraping and API access
+  - **OSMnx** — OpenStreetMap network analysis
+  - **Folium** — interactive web maps
 
 **R — strong alternative for statistical work:**
 - **Tidyverse** — data wrangling (dplyr, tidyr, ggplot2)
@@ -96,20 +106,22 @@ Programming opens up capabilities far beyond what spreadsheets can offer: automa
 - **R Markdown** — reproducible reports
 
 **How to learn it:**
-- Codecademy, DataCamp, or Coursera (e.g. *Python for Everybody*)
+- MOOCs, Codecademy, DataCamp, or Coursera (e.g. *Python for Everybody*)
 - The Carpentries workshops (Data Carpentry, Software Carpentry)
 - Project-based learning — pick a real problem and solve it
 - University introductory courses (many available free online)
 
 ### Data Visualisation
 
-Good visualisation transforms data into understanding. It's about telling a story with data, not just making charts.
+Good visualisation transforms data into understanding. It's about telling a story with data, not just making charts. And don't forget about spreadsheet charts for visualisation - in many/most cases, that will be all you need.
 
 **Tools to explore:**
-- **Tableau Public** — free, powerful interactive dashboards
-- **Power BI** — Microsoft's analytics and visualisation platform
-- **Streamlit / Dash** — Python libraries for building data apps
-- **Matplotlib, Seaborn, ggplot2** — code-based static and interactive graphics
+- **Dashboards** - useful in the right environment, but many users just want to download a csv/spreadsheet file to do their own analysis. 
+  - **Tableau Public** — free, powerful interactive dashboards
+  - **Power BI** — Microsoft's analytics and visualisation platform
+- **Python libraries**
+  - **Streamlit / Dash** — Python libraries for building data apps
+  - **Matplotlib, Seaborn, ggplot2** — code-based static and interactive graphics
 - **Inkscape / Adobe Illustrator** — for refining publication-quality graphics
 
 **How to learn it:**
