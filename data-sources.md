@@ -2,7 +2,7 @@
 layout: page
 title: Data Sources
 permalink: /data-sources/
-nav_order: 8
+nav_order: 9
 ---
 
 # Australian Urban Data Sources
@@ -153,4 +153,4 @@ Open data benefits the whole community. Where possible, share your work, methodo
 
 ---
 
-*Next: [Resources & Tools →](resources)*
+*Next: [Resources & Tools →](../resources)*
