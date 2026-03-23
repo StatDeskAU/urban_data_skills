@@ -7,7 +7,7 @@ nav_order: 5
 
 # Critical Thinking for Urban Data Analysis
 
-If [data literacy](data-literacy) is the ability to read and understand data, critical thinking is the discipline of **questioning data before you trust it**. It's the habit of asking: *Should I believe this? What might be wrong? What's missing? Who does this serve?*
+If [data literacy](../data-literacy) is the ability to read and understand data, critical thinking is the discipline of **questioning data before you trust it**. It's the habit of asking: *Should I believe this? What might be wrong? What's missing? Who does this serve?*
 
 Data literacy tells you that SEIFA is calculated at SA1 level. Critical thinking asks whether averaging SEIFA to LGA level masks the disadvantage you're trying to identify. You need the first to do the second — but they are different skills, and critical thinking is the one that prevents bad decisions.
 
@@ -37,7 +37,7 @@ Data is never neutral. It was collected by someone, for a purpose, using methods
 
 **Example — Developer-supplied traffic impact assessments:**
 
-A developer submitting a traffic study for a major rezoning has an institutional incentive to minimise projected impacts. The study might use trip generation rates from American manuals (ITE) rather than Australian data, assume higher public transport mode share than the area actually achieves, or model only the AM peak rather than the school-drop-off peak that causes the worst congestion in that locality. The study isn't necessarily wrong — but its framing is shaped by its purpose, and critical thinking means reading the methodology section, not just the conclusions.
+A developer submitting a traffic study for a major rezoning has an institutional incentive to minimise projected impacts. The study might use trip generation rates from American manuals (ITE) rather than Australian data, assume a higher public transport mode share than the area actually achieves, or model only the AM peak rather than the school-drop-off peak that causes the worst congestion in that locality. The study isn't necessarily wrong — but its framing is shaped by its purpose, and critical thinking means reading the methodology section, not just the conclusions.
 
 **Example — ABS Census vs council rates data for population:**
 
@@ -69,7 +69,7 @@ Geographic boundaries, classification systems, and definitional choices shape wh
 
 **Example — The ecological fallacy and SEIFA:**
 
-SEIFA (Socio-Economic Indexes for Areas) is calculated at SA1 level — roughly 200 to 800 people. When reported at suburb or LGA level (by averaging or population-weighting), areas with pockets of severe disadvantage alongside affluent streets can average out to "middle income." A planner targeting social housing investment at LGA level using averaged SEIFA scores might direct resources to areas that look disadvantaged on average but have no concentration of actual disadvantage — while missing areas where small pockets of genuine hardship are masked by surrounding affluence. This is the **ecological fallacy**: inferring individual or localised conditions from area-level aggregates.
+SEIFA (Socio-Economic Indexes for Areas) is calculated at the SA1 level — roughly 200 to 800 people. When reported at the suburb or LGA level (by averaging or population-weighting), areas with pockets of severe disadvantage alongside affluent streets can average out to "middle income." A planner targeting social housing investment at the LGA level using averaged SEIFA scores might direct resources to areas that appear disadvantaged on average but lack a concentration of actual disadvantage, while overlooking areas where small pockets of genuine hardship are masked by surrounding affluence. This is the **ecological fallacy**: inferring individual or localised conditions from area-level aggregates.
 
 **Example — "Walkability" scores:**
 
@@ -77,11 +77,11 @@ Walk Score and similar indices calculate walkability based on proximity to ameni
 
 **Example — "Affordable housing":**
 
-The definition of "affordable" varies enormously across different analyses. Is it 30% of gross household income? Net income? Which household income — median, bottom quintile, key workers? Is it purchase price or rental cost? Does it include transport costs (which can make a "cheap" house on the urban fringe more expensive overall than a "costly" inner-city apartment once commuting costs are factored in)? A planning report that says "45% of housing in this precinct is affordable" is unreliable without knowing the definition — and critical thinking demands that you check before citing it.
+The definition of "affordable" varies enormously across different analyses. Is it 30% of gross household income? Net income? Which household income — median, bottom quintile, key workers? Is it purchase price or rental cost? Does it include transport costs (which can make a "cheap" house on the urban fringe more expensive overall than a "costly" inner-city apartment once commuting costs are factored in)? A planning report that says "45% of housing in this precinct is affordable" is unreliable without knowing the definition, and critical thinking demands that you check before citing it.
 
 **The habit:** When you encounter any classification, boundary, or definition in data, ask: *Who chose this definition? What alternatives exist? Would a different boundary or definition change the conclusion?*
 
-### 4. Has something happened between collection and here?
+### 4. Has something happened between the collection and here?
 
 Between raw collection and the final dataset on your screen, data goes through many transformations — cleaning, geocoding, aggregation, imputation, formatting. Each step introduces potential for error, bias, or loss of nuance that the final product doesn't reveal.
 
@@ -91,7 +91,7 @@ When address-level data (development applications, business registrations, incid
 
 **Example — Census imputation:**
 
-When Census respondents don't answer a question, the ABS imputes (estimates) values based on other characteristics. For most variables the imputation rate is small. But for sensitive topics — income, Indigenous status, unpaid care work — the imputation rate can be significant in particular areas. If 15% of income data in an SA1 is imputed, your median income figure is partly measured and partly estimated. The ABS publishes imputation rates — checking them is the critical thinking step that most analysts skip.
+When Census respondents don't answer a question, the ABS imputes (estimates) values based on other characteristics. For most variables, the imputation rate is low. But for sensitive topics — income, Indigenous status, unpaid care work — the imputation rate can be significant in particular areas. If 15% of the income data in an SA1 is imputed, your median income figure is partly measured and partly estimated. The ABS publishes imputation rates — checking them is the critical thinking step that most analysts skip.
 
 **Example — The modifiable areal unit problem (MAUP):**
 
@@ -149,7 +149,7 @@ The six questions above become even more important when AI is part of the analys
 
 **AI can't assess practical significance.** AI can tell you a result is statistically significant; it can't tell you whether it matters. That judgment requires domain knowledge, contextual understanding, and an appreciation of what's at stake — all human skills.
 
-For more on this topic, see the [AI and Urban Data](ai-and-urban-data) page, particularly the Sorcerer's Apprentice section on the risks of AI outputs that look professional but are fundamentally flawed.
+For more on this topic, see the [AI and Urban Data](../ai-and-urban-data) page, particularly the Sorcerer's Apprentice section on the risks of AI outputs that look professional but are fundamentally flawed.
 
 ---
 
@@ -182,10 +182,10 @@ These two skills are complementary and mutually reinforcing:
 | Understands what metadata should contain | Notices when metadata is missing and factors that into confidence |
 | Can identify data types and formats | Assesses whether the data quality is sufficient for the intended use |
 
-Data literacy is the **vocabulary**. Critical thinking is the **judgment**. Urban planning needs both — and AI makes both more important, not less.
+Data literacy is the **vocabulary**. Critical thinking is the **judgment**. Urban planning needs both, and AI makes both more important, not less.
 
 ---
 
-*See also: [Data Literacy](data-literacy) for the foundational concepts, and [AI and Urban Data](ai-and-urban-data) for how critical thinking applies when AI is part of the workflow.*
+*See also: [Data Literacy](../data-literacy) for the foundational concepts, and [AI and Urban Data](../ai-and-urban-data) for how critical thinking applies when AI is part of the workflow.*
 
-*Next: [Competency Framework →](competency-framework)*
+*Next: [Competency Framework →](../competency-framework)*
