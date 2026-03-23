@@ -38,6 +38,9 @@ How PIA's Digital Planning Core Competencies map to practical skills — includi
 ### [AI and Urban Data](ai-and-urban-data)
 A framework for using AI at the right level — as a complexity filter, a translator between professional languages, and a learning accelerator — while avoiding the Sorcerer's Apprentice problem of power without understanding.
 
+### [Presenting Statistics](presenting-statistics)
+How to communicate data clearly — number formatting, table design, chart principles, and writing about statistics. Drawing on the Australian Government Style Manual and the ONS Service Manual.
+
 ### [Australian Data Sources](data-sources)
 A curated guide to key Australian data sources for urban planning — federal, state, and local — including open data portals, spatial datasets, and APIs.
 
