@@ -55,15 +55,15 @@ Understanding what type of data you're working with determines what you can do w
 
 This matters because it determines which statistical operations are valid:
 
-**Nominal:** Categories with no order. Zoning types (Residential, Commercial, Industrial), council names, land use classifications. You can count them and calculate mode (most common) but not mean or median.
+**Nominal:** Categories with no order. Zoning types (Residential, Commercial, Industrial), council names, and land use classifications. You can count them and calculate the mode (most common), but not the mean or median.
 
-**Ordinal:** Categories with a meaningful order but unequal intervals. Bushfire risk ratings (Low, Moderate, High, Extreme), heritage significance levels, community satisfaction ratings (1–5 stars). You can rank them and calculate median but mean is debatable.
+**Ordinal:** Categories with a meaningful order but unequal intervals. Bushfire risk ratings (Low, Moderate, High, Extreme), heritage significance levels, and community satisfaction ratings (1–5 stars). You can rank them and calculate the median, but the mean is debatable.
 
-**Interval:** Numeric with equal intervals but no true zero. Temperature in Celsius, year of construction. The difference between values is meaningful but ratios are not (20°C is not "twice as hot" as 10°C).
+**Interval:** Numeric with equal intervals but no true zero. Temperature in Celsius, year of construction. The difference between values is meaningful, but ratios are not (20°C is not "twice as hot" as 10°C).
 
 **Ratio:** Numeric with equal intervals and a true zero. Population, area in hectares, price in dollars, distance in metres. All mathematical operations are valid.
 
-A common error in urban planning analysis is treating ordinal data as ratio — for example, averaging Likert scale community survey responses (1–5) and reporting that "community satisfaction is 3.7." This is technically invalid because the intervals between 1–2, 2–3, 3–4, and 4–5 aren't necessarily equal. In practice it's widely done, but a data-literate planner knows it's an approximation.
+A common error in urban planning analysis is treating ordinal data as ratio — for example, averaging Likert scale community survey responses (1–5) and reporting that "community satisfaction is 3.7." This is technically invalid because the intervals between 1–2, 2–3, 3–4, and 4–5 aren't necessarily equal. In practice, it's widely done, but a data-literate planner knows it's an approximation.
 
 ### Common file formats
 
@@ -79,7 +79,7 @@ A common error in urban planning analysis is treating ordinal data as ratio — 
 | **XML** | Extensible Markup Language — tagged hierarchical data | Metadata catalogues, legacy government systems |
 | **KML/KMZ** | Google Earth spatial format | Simple mapping, community engagement |
 
-A data-literate planner doesn't need to be expert in all of these, but should recognise them and understand which tools open which formats. Knowing that a shapefile is actually a bundle of files (`.shp`, `.dbf`, `.shx`, `.prj` minimum), for example, prevents the common mistake of emailing just the `.shp` file and wondering why the recipient can't open it.
+A data-literate planner doesn't need to be an expert in all of these, but should recognise them and understand which tools open which formats. Knowing that a shapefile is actually a bundle of files (`.shp`, `.dbf`, `.shx`, `.prj`, minimum), for example, prevents the common mistake of emailing just the `.shp` file and wondering why the recipient can't open it.
 
 ---
 
@@ -92,7 +92,7 @@ Understanding how Australia organises geographic data is essential for anyone wo
 The ABS uses a hierarchical system called the Australian Statistical Geography Standard. Every piece of Census data is published at one or more of these levels:
 
 | Level | Typical size | Count (approx.) | What it represents |
-|-------|-------------|-----------------|-------------------|
+|-------|-------------|-----------------:|-------------------|
 | **Mesh Block** | ~30–60 dwellings | 358,000 | Smallest unit — single land use type |
 | **SA1** | 200–800 people | 61,000 | Smallest unit for most Census data |
 | **SA2** | 3,000–25,000 people | 2,500 | Roughly equivalent to suburbs |
@@ -104,7 +104,7 @@ The ABS uses a hierarchical system called the Australian Statistical Geography S
 
 **Key things to understand:**
 
-SA2s are the workhorse geography for most urban analysis — they're roughly suburb-sized and most ABS data is available at this level. But SA2 boundaries don't always align with suburb boundaries, council boundaries, or planning scheme boundaries. A planner working in "Fremantle" needs to know whether their analysis uses the SA2 called "Fremantle," the suburb boundary, or the City of Fremantle LGA boundary — these are three different areas that produce different results.
+SA2s are the workhorse geography for most urban analysis — they're roughly suburb-sized, and most ABS data is available at this level. But SA2 boundaries don't always align with suburb boundaries, council boundaries, or planning scheme boundaries. A planner working in "Fremantle" needs to know whether their analysis uses the SA2 called "Fremantle," the suburb boundary, or the City of Fremantle LGA boundary — these are three different areas that produce different results.
 
 SA1s provide finer detail but have data suppression issues — the ABS suppresses (hides) small counts to protect privacy. An SA1 with only 200 people might have income data suppressed for many categories, making it less useful than the SA2 aggregate.
 
@@ -122,13 +122,13 @@ Planning data in Australia uses many geographic systems beyond the ASGS:
 
 **Postcodes:** Widely used but actually designed for mail delivery, not analysis. Postcode boundaries can cross council boundaries and change without notice. Using postcodes for urban analysis is common but introduces geographic imprecision.
 
-**Suburbs:** Gazetted locality boundaries. Often used informally but their boundaries are not always consistent with other systems. In some states, suburb boundaries are maintained by the land agency; in others, they're loosely defined.
+**Suburbs:** Gazetted locality boundaries. Often used informally, but their boundaries are not always consistent with other systems. In some states, suburb boundaries are maintained by the land agency; in others, they're loosely defined.
 
 ### The concordance challenge
 
 One of the most practical data literacy skills in Australian urban planning is understanding how to map between these different geographies. If you have council rates data by property lot and Census data by SA2, linking them requires spatial analysis — you can't just match on suburb name because the boundaries don't align.
 
-The ABS publishes **correspondence files** that map between different ASGS levels and between different Census years (when boundaries change). Understanding that these exist and how to use them is fundamental data literacy for urban analysis.
+The ABS publishes **correspondence files** that map between different ASGS levels and between different Census years (when boundaries change). Understanding that these exist and how to use them is fundamental to data literacy for urban analysis.
 
 ---
 
@@ -155,15 +155,15 @@ Rates standardise data so you can compare areas of different sizes. A suburb wit
 - Population density: people per km²
 - Crime rate: incidents per 100,000 population
 - Job density: jobs per hectare of commercial land
-- Approval rate: DAs approved as percentage of DAs determined
+- Approval rate: DAs approved as a percentage of DAs determined
 
 **Watch for denominator choices:** A "job creation rate" per hectare of total land gives a very different picture from jobs per hectare of commercially-zoned land. The same numerator with a different denominator tells a different story.
 
 ### Understanding distributions
 
-When someone reports a single number (mean, median), they're compressing an entire distribution into one point. A data-literate planner asks what the distribution looks like:
+When someone reports a single number (e.g., the mean or median), they're compressing an entire distribution into a single point. A data-literate planner asks what the distribution looks like:
 
-**Household income example:** An SA2 with a median household income of $85,000 could be a relatively uniform middle-income area, or it could be a bimodal distribution with many low-income renters and many high-income homeowners averaging out to "middle." The planning implications are completely different — the first needs general services, the second needs targeted support for both groups.
+**Household income example:** An SA2 with a median household income of $85,000 could be a relatively uniform middle-income area, or it could have a bimodal distribution, with many low-income renters and many high-income homeowners, averaging out to "middle." The planning implications are completely different — the first needs general services, the second needs targeted support for both groups.
 
 **Processing time example:** Median DA processing time of 42 days tells you about the typical case. But if the distribution has a long tail (10% of applications take over 200 days), that tail represents real people waiting for decisions on their property. Reporting only the median hides the worst-case experience.
 
@@ -197,7 +197,7 @@ Metadata is data about data — the documentation that tells you what a dataset 
 
 Most datasets encountered in Australian urban planning have incomplete metadata. Council open data portals often publish CSV files with no data dictionary — just column headers that might or might not be self-explanatory. Is "AREA" in square metres or hectares? Is "DATE" the lodgement date or the decision date? Is "VALUE" in current or constant dollars?
 
-**Practical skill:** Before analysing any new dataset, spend 10 minutes looking for metadata. Check the data portal's description, look for an accompanying PDF or methodology note, check whether the publishing agency has a data dictionary on their website. If metadata doesn't exist, contact the publisher or note the limitations explicitly in your analysis. This small upfront investment prevents significant downstream errors.
+**Practical skill:** Before analysing any new dataset, spend 10 minutes looking for metadata. Check the data portal's description, look for an accompanying PDF or methodology note, and check whether the publishing agency has a data dictionary on their website. If the metadata doesn't exist, contact the publisher or explicitly note the limitations in your analysis. This small upfront investment prevents significant downstream errors.
 
 ---
 
@@ -211,11 +211,11 @@ Not all data is equal. Data quality has multiple dimensions, and understanding t
 
 **Completeness:** How much is missing? A dataset of development applications might be 95% complete for suburban councils but only 60% complete for rural shires. The gaps aren't random — they systematically bias the dataset toward urban areas.
 
-**Consistency:** Is the same thing measured the same way throughout? If one council classifies a granny flat as a "secondary dwelling" and another classifies it as an "ancillary accommodation," combining their DA data without reconciling the categories produces misleading totals.
+**Consistency:** Is the same thing measured the same way throughout? If one council classifies a granny flat as a "secondary dwelling" and another as "ancillary accommodation," combining their DA data without reconciling the categories yields misleading totals.
 
 **Currency:** How old is the data? The most recent ABS Census data (2021) is already several years old. Population estimates are updated annually but at coarser geographic levels. Land use data may not reflect recent rezonings.
 
-**Precision:** How detailed is the measurement? Population reported as "approximately 15,000" is less precise than "14,837." Both might be equally accurate, but they support different types of analysis.
+**Precision:** How detailed is the measurement? Reporting the population as "approximately 15,000" is less precise than "14,837." Both might be equally accurate, but they support different types of analysis.
 
 **Relevance:** Does this data actually measure what you're trying to understand? Using "number of building permits" as a proxy for "housing construction" misses projects that are permitted but never built, and projects built without proper permits.
 
@@ -253,7 +253,7 @@ CARE principles apply specifically to Indigenous data and are particularly relev
 
 **Responsibility:** Those who work with Indigenous data have a responsibility to support Indigenous data sovereignty and to use data in ways that support Indigenous rights and wellbeing.
 
-**Ethics:** Indigenous peoples' rights and wellbeing should be the primary concern in any data-related activity. Standard ethics review processes may not adequately address Indigenous data governance requirements.
+**Ethics:** Indigenous peoples' rights and well-being should be the primary concern in any data-related activity. Standard ethics review processes may not adequately address Indigenous data governance requirements.
 
 For urban planners, CARE principles are most relevant when working with data about Indigenous communities — housing needs assessments, Native Title areas, cultural heritage mapping, and community consultation data. Using Census data about Indigenous populations without considering CARE principles is technically possible but professionally and ethically problematic.
 
