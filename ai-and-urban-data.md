@@ -2,7 +2,7 @@
 layout: page
 title: AI and Urban Data
 permalink: /ai-and-urban-data/
-nav_order: 5
+nav_order: 7
 ---
 
 # AI and Urban Data: The Right Tool at the Right Level

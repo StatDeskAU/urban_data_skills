@@ -15,6 +15,8 @@ This site accompanies presentations delivered through the PIA Urban Data Network
 | `index.md` | Home page — overview and quick start guide |
 | `pain-points.md` | Common challenges in finding and analysing urban data |
 | `learning-pathways.md` | Structured guidance from foundational to advanced skills |
+| `data-literacy.md` | The foundational language of data — types, formats, Australian geographies, statistics, metadata, FAIR/CARE/SHARE |
+| `critical-thinking.md` | The six questions — interrogating data before trusting it, with Australian planning examples |
 | `competency-framework.md` | PIA Digital Planning Core Competencies — career stages, personas, self-assessment, planning values |
 | `ai-and-urban-data.md` | AI as complexity filter, translator, and learning tool — the Sorcerer's Apprentice problem |
 | `data-sources.md` | Curated guide to Australian urban data sources |

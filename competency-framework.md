@@ -2,7 +2,7 @@
 layout: page
 title: Competency Framework
 permalink: /competency-framework/
-nav_order: 4
+nav_order: 6
 ---
 
 # Digital Planning Competency Framework

@@ -27,19 +27,12 @@ If in doubt about which programming language to learn, **choose Python**. It has
 
 ### Data Literacy & Critical Thinking
 
-Before tools and techniques, the most important skill is the ability to think critically about data: understanding sources, recognising biases, assessing limitations, and interpreting statistics correctly.
+Before tools and techniques, the most important skills are the ability to understand data and to question it. These are covered in depth on their own pages:
 
-**What to learn:**
-- How data is collected, sampled, and aggregated
-- Common statistical pitfalls and misleading representations
-- How to assess data quality and trustworthiness
-- Principles of evidence-based reasoning
+- **[Data Literacy](data-literacy)** — Understanding data types, formats, Australian geographic structures (ASGS, SA1/SA2/LGA), reading statistics correctly, metadata, data quality, and FAIR/CARE/SHARE principles
+- **[Critical Thinking](critical-thinking)** — The six questions every planner should ask before trusting any dataset: Who collected this and why? What's missing? Do the boundaries hold up? What happened during processing? Does this pass the common-sense test? Who is affected?
 
-**How to learn it:**
-- Online courses in data literacy and introductory statistics
-- Critical analysis workshops
-- Reading data journalism (e.g. The Guardian's data blog, ABC's data team)
-- Academic papers on data quality and methodology
+These two pages provide the detailed treatment. The summary below highlights the key points for the learning pathway context.
 
 ### Spreadsheet Proficiency (Advanced)
 

@@ -2,7 +2,7 @@
 layout: page
 title: Data Sources
 permalink: /data-sources/
-nav_order: 6
+nav_order: 8
 ---
 
 # Australian Urban Data Sources

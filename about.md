@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-nav_order: 8
+nav_order: 10
 ---
 
 # About This Resource

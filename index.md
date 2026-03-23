@@ -26,6 +26,12 @@ The urban data landscape is full of obstacles — from fragmented sources and in
 ### [Learning Pathways](learning-pathways)
 Structured guidance from foundational skills through to advanced specialisations, with practical advice on where to start and how to build capability iteratively.
 
+### [Data Literacy](data-literacy)
+The foundational language of data — types, formats, Australian geographic structures (ASGS, SA1/SA2/LGA), reading statistics correctly, understanding metadata and data quality, and the FAIR/CARE/SHARE principles.
+
+### [Critical Thinking](critical-thinking)
+The discipline of questioning data before you trust it — six questions every planner should ask, with Australian examples covering developer-supplied studies, Census limitations, ecological fallacy, boundary definitions, and who is affected by analytical choices.
+
 ### [Competency Framework](competency-framework)
 How PIA's Digital Planning Core Competencies map to practical skills — including self-assessment approaches, career stage expectations, personas for different planning contexts, and the connection between data skills and planning values like equity, sustainability, and public interest.
 
