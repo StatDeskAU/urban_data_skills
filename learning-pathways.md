@@ -29,8 +29,8 @@ If in doubt about which programming language to learn, **choose Python**. It has
 
 Before tools and techniques, the most important skills are the ability to understand data and to question it. These are covered in depth on their own pages:
 
-- **[Data Literacy](data-literacy)** — Understanding data types, formats, Australian geographic structures (ASGS, SA1/SA2/LGA), reading statistics correctly, metadata, data quality, and FAIR/CARE/SHARE principles
-- **[Critical Thinking](critical-thinking)** — The six questions every planner should ask before trusting any dataset: Who collected this and why? What's missing? Do the boundaries hold up? What happened during processing? Does this pass the common-sense test? Who is affected?
+- **[Data Literacy](../data-literacy)** — Understanding data types, formats, Australian geographic structures (ASGS, SA1/SA2/LGA), reading statistics correctly, metadata, data quality, and FAIR/CARE/SHARE principles
+- **[Critical Thinking](../critical-thinking)** — The six questions every planner should ask before trusting any dataset: Who collected this and why? What's missing? Do the boundaries hold up? What happened during processing? Does this pass the common-sense test? Who is affected?
 
 These two pages provide the detailed treatment. The summary below highlights the key points for the learning pathway context.
 
@@ -193,19 +193,19 @@ Learning data skills in isolation from planning's professional values is a misse
 
 **Sustainability:** Climate data integration, scenario modelling, and lifecycle analysis connect data skills to long-term environmental stewardship.
 
-**Public Interest:** Data storytelling, open data publication, and transparent methodology documentation ensure that data-driven planning remains accountable to communities.
+**Public Interest:** Data storytelling, open data publication, and transparent documentation of methodology ensure that data-driven planning remains accountable to communities.
 
 **Professional Judgment:** AI literacy, vendor claim assessment, and knowing when technology is not the right solution protect the essential role of human judgment in planning decisions. As the PIA Digital Planning Core Competencies framework emphasises, digital tools should support planning judgment, not replace it.
 
-For a deeper exploration of how the PIA competency framework maps to these values and to different career stages, see the [Competency Framework](competency-framework) page.
+For a deeper exploration of how the PIA competency framework maps to these values and to different career stages, see the [Competency Framework](../competency-framework) page.
 
 ---
 
 ## Practical Strategies
 
 ### Start with Australian Urban Data
-- Use the [ABS Data Explorer](https://www.abs.gov.au/statistics/microdata-tablebuilder/dataexplorer) to practice with census and survey data
-- Explore state open data portals (see [Data Sources](data-sources))
+- Use the [ABS Data Explorer](https://dataexplorer.abs.gov.au/) to practice with census and survey data
+- Explore state open data portals (see [Data Sources](../data-sources))
 - Download local council datasets to practice cleaning and analysis
 
 ### Join Communities
@@ -224,4 +224,4 @@ The urban data field evolves constantly. New tools, data sources, and techniques
 
 ---
 
-*Next: [Australian Data Sources →](data-sources)*
+*Next: [Australian Data Sources →](../data-sources)*
