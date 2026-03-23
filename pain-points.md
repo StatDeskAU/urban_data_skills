@@ -65,15 +65,15 @@ Many planning professionals have limited skills in programming languages (Python
 
 ### Skills Gap in Analytical Techniques
 
-There is a widespread gap in understanding of statistical methods, spatial analysis techniques, and predictive modelling approaches that are relevant to urban challenges. Translating raw data into actionable insights and compelling narratives — data storytelling — is a skill that is rarely taught in planning education.
+There is a widespread gap in understanding of statistical methods, spatial analysis techniques, and predictive modelling approaches relevant to urban challenges. Translating raw data into actionable insights and compelling narratives — data storytelling — is a skill that is rarely taught in planning education.
 
 ---
 
 ## What Can Be Done?
 
-The pain points outlined above are real and significant, but they are not insurmountable. The [Learning Pathways](learning-pathways) section of this site provides structured guidance for building the skills needed to work effectively with urban data, from foundational data literacy through to advanced specialisations.
+The pain points outlined above are real and significant, but they are not insurmountable. The [Learning Pathways](../learning-pathways) section of this site provides structured guidance for building the skills needed to work effectively with urban data, from foundational data literacy through to advanced specialisations.
 
-Beyond individual skill-building, there are systemic barriers that the profession and organisations need to address. These are explored in detail in the [Competency Framework](competency-framework) page, but in summary:
+Beyond individual skill-building, there are systemic barriers that the profession and organisations need to address. These are explored in detail in the [Competency Framework](../competency-framework) page, but in summary:
 
 **Organisational barriers** include legacy systems and budget constraints, key-person dependency for technical skills, and limited digital maturity in smaller councils. Managers need to build team capability rather than concentrating all technical skills in one person.
 
