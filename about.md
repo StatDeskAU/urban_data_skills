@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-nav_order: 10
+nav_order: 11
 ---
 
 # About This Resource
@@ -38,7 +38,7 @@ The network operates through LinkedIn, PIA chapters, and events like the Bytes &
 - Date: 25 March 2026
 - Presenter: Stuart McKnight (Solve Property / StatDesk)
 
-The presentation covers the common challenges that urban data professionals face in finding and analysing data, and provides structured learning pathways for building the skills needed to work more effectively.
+The presentation covers the common challenges that urban data professionals face in finding and analysing data and provides structured learning pathways to build the skills needed to work more effectively.
 
 ## How to Use This Site
 
