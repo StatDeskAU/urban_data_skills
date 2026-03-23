@@ -45,10 +45,10 @@ The presentation covers the common challenges that urban data professionals face
 This site is designed as a **living resource** that will be updated as new tools, data sources, and learning opportunities emerge. It is structured around the presentation content but provides significantly more detail and links than a slide deck can accommodate.
 
 **Navigation:**
-- **[Pain Points](pain-points)** — Understanding the challenges in urban data work
-- **[Learning Pathways](learning-pathways)** — Structured guidance for building skills
-- **[Data Sources](data-sources)** — Guide to Australian urban data sources
-- **[Resources](resources)** — Tools, communities, courses, and reading
+- **[Pain Points](,,/pain-points)** — Understanding the challenges in urban data work
+- **[Learning Pathways](,,/learning-pathways)** — Structured guidance for building skills
+- **[Data Sources](,,/data-sources)** — Guide to Australian urban data sources
+- **[Resources](,./resources)** — Tools, communities, courses, and reading
 
 ## Contributing
 
