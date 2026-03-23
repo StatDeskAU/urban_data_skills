@@ -2,7 +2,7 @@
 layout: page
 title: Resources
 permalink: /resources/
-nav_order: 9
+nav_order: 10
 ---
 
 # Resources & Tools
