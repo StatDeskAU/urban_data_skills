@@ -101,4 +101,4 @@ Key principles:
 
 ---
 
-*Next: [Learning Pathways →](learning-pathways)*
+*Next: [Learning Pathways →](../learning-pathways)*
