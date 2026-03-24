@@ -33,7 +33,7 @@ The network operates through LinkedIn, PIA chapters, and events like the Bytes &
 **Bytes & Banter** sessions are informal, knowledge-sharing events for planning professionals working with data. Each session focuses on a practical topic relevant to urban data work.
 
 ### Current Presentation
-**Urban Data: From Pain Points to Learning Pathways**
+[**Urban Data: From Pain Points to Learning Pathways**]({{site.baseurl}}/resources/20260326_PIA_UrbanDataNetwork-FromPainPointsToLearningPathways-StuartMcKnight.pdf)
 - Presented at: PIA Urban Data Network — WA
 - Date: 25 March 2026
 - Presenter: Stuart McKnight (Solve Property / StatDesk)
@@ -56,6 +56,10 @@ This resource is maintained to support the planning community. Suggestions for a
 
 The source code for this site is available on GitHub at [StatDeskAU/urban_data_skills](https://github.com/StatDeskAU/urban_data_skills).
 
+## Attribution
+
+AI agents were used in creating this content, including Anthropic Claude, Google Antigravity (various models) and OpenAI Chat GPT.
+
 ## License
 
 This work is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) — you are free to use, adapt, and share this content without restriction.
@@ -63,7 +67,7 @@ This work is released under [CC0 1.0 Universal](https://creativecommons.org/publ
 ## Contact
 
 **Stuart McKnight**
-Solve Property / StatDesk
+[StatDesk / Solve Property
 
 ---
 
