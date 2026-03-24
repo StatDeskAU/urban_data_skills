@@ -7,7 +7,8 @@ nav_order: 1
 # Urban Data: From Pain Points to Learning Pathways
 
 A companion resource for the **Planning Institute of Australia's Urban Data Network** — *Bytes & Banter* series.
-[Overview presentation by Stuart McKnight on 25 March 2026]({{site.baseurl}}20260326_PIA_UrbanDataNetwork-FromPainPointsToLearningPathways-StuartMcKnight.pdf)
+
+[Overview presentation by Stuart McKnight on 25 March 2026]({{site.baseurl}}/resources/20260326_PIA_UrbanDataNetwork-FromPainPointsToLearningPathways-StuartMcKnight.pdf)
 
 ---
 
@@ -28,13 +29,13 @@ The urban data landscape is full of obstacles — from fragmented sources and in
 Structured guidance from foundational skills through to advanced specialisations, with practical advice on where to start and how to build capability iteratively.
 
 ### [Data Literacy](data-literacy)
-The foundational language of data — types, formats, Australian geographic structures (ASGS, SA1/SA2/LGA), reading statistics correctly, understanding metadata and data quality, and the FAIR/CARE/SHARE principles.
+The foundational language of data — types, formats, Australian geographic structures (ASGS, SA1/SA2/LGA), reading statistics correctly, understanding metadata and data quality, and the FAIR/CARE principles.
 
 ### [Critical Thinking](critical-thinking)
 The discipline of questioning data before you trust it — six questions every planner should ask, with Australian examples covering developer-supplied studies, Census limitations, ecological fallacy, boundary definitions, and who is affected by analytical choices.
 
 ### [Competency Framework](competency-framework)
-How PIA's Digital Planning Core Competencies map to practical skills — including self-assessment approaches, career stage expectations, personas for different planning contexts, and the connection between data skills and planning values like equity, sustainability, and public interest.
+How PIA's Digital Planning Core Competencies map to practical skills — including self-assessment approaches, career-stage expectations, personas for different planning contexts, and the connection between data skills and planning values such as equity, sustainability, and the public interest.
 
 ### [AI and Urban Data](ai-and-urban-data)
 A framework for using AI at the right level — as a complexity filter, a translator between professional languages, and a learning accelerator — while avoiding the Sorcerer's Apprentice problem of power without understanding.
