@@ -7,6 +7,7 @@ nav_order: 1
 # Urban Data: From Pain Points to Learning Pathways
 
 A companion resource for the **Planning Institute of Australia's Urban Data Network** — *Bytes & Banter* series.
+[Overview presentation by Stuart McKnight on 25 March 2026]({{site.baseurl}}20260326_PIA_UrbanDataNetwork-FromPainPointsToLearningPathways-StuartMcKnight.pdf)
 
 ---
 
