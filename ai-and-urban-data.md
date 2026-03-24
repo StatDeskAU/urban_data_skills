@@ -7,7 +7,9 @@ nav_order: 7
 
 # AI and Urban Data: The Right Tool at the Right Level
 
-AI is transforming how we work with data. For urban planners, it offers genuine potential to cut through the complexity of fragmented data sources, accelerate tedious preparation work, and bridge the gap between technical and non-technical professionals. But it also introduces new risks — particularly for those who haven't yet built the foundational skills to verify what AI produces.
+AI is transforming how we work with data, but AI employs *language models*, not mathematical models. An AI agent that is fed a given set of inputs will not necessarily produce the same output every time it is run.
+
+For urban planners, AI can help cut through complex fragmented data sources, accelerate tedious preparation work, and bridge the gap between technical and non-technical professionals. But it also introduces new risks — particularly for those who haven't yet built the foundational skills to verify what AI produces.
 
 This page provides a framework for thinking about AI in urban data work, organised around four key concepts.
 
@@ -27,7 +29,7 @@ Urban planners are drowning not in a lack of data, but in an excess of it. Findi
 
 **Format translation:** Converting between data structures (JSON API responses to clean CSVs, PDF tables to structured data, messy Excel to standardised schemas) is exactly the kind of tedious, rules-based work where AI dramatically reduces the time burden.
 
-**Literature and methodology scanning:** "What spatial analysis methods have been used to assess pedestrian accessibility in Australian suburban contexts?" — AI can synthesise research literature and suggest approaches far faster than manual literature review.
+**Literature and methodology scanning:** "What spatial analysis methods have been used to assess pedestrian accessibility in Australian suburban contexts?" — AI can synthesise research literature and suggest approaches far faster than a manual literature review.
 
 ### The key insight
 
@@ -37,7 +39,7 @@ AI's highest-value use case for most planners isn't generating answers. It's **f
 
 ## 2. The Sorcerer's Apprentice Problem: Power Without Understanding
 
-In *The Sorcerer's Apprentice*, the apprentice enchants a broom to carry water. It works — but the apprentice can't control it because they don't understand the underlying magic. The broom multiplies, the water overflows, chaos ensues. Only the master sorcerer can restore order.
+In [*The Sorcerer's Apprentice*](https://en.wikipedia.org/wiki/The_Sorcerer's_Apprentice), the apprentice enchants a broom to carry water. It works — but the apprentice can't control it because they don't understand the underlying magic. The broom multiplies, the water overflows, chaos ensues. Only the master sorcerer can restore order.
 
 This is a precise metaphor for AI in the hands of someone who doesn't yet have the foundational skills to verify its outputs.
 
@@ -49,7 +51,7 @@ This is a precise metaphor for AI in the hands of someone who doesn't yet have t
 
 **Inappropriate aggregation:** An AI-built dashboard uses geographic aggregations that mask important local variation — averaging across an entire LGA when the meaningful patterns are at the suburb or SA1 level. It looks polished, but it obscures the very insights it was meant to reveal.
 
-**Ecological fallacy:** An AI finds a "significant" correlation in aggregated data that doesn't hold at the individual level. Without understanding the methodological pitfall, the planner draws conclusions that are statistically unsound.
+**Ecological fallacy:** An AI finds a "significant" correlation in aggregated data that doesn't hold at the individual level. Without understanding the methodological pitfall, the planner draws statistically unsound conclusions.
 
 ### The core danger
 
@@ -63,7 +65,7 @@ The answer isn't "don't use AI." The answer is **"use AI at the right level for 
 
 Use AI as a **tutor**, not an **oracle**:
 
-- Ask it to explain what code does, not just to write code
+- Ask it to explain what the code does, not just to write code
 - Ask it to walk through its reasoning, not just present conclusions
 - Check its statistical claims against your understanding of the data
 - Start with simple tasks and increase complexity as your ability to verify grows
@@ -198,6 +200,10 @@ AI in urban planning carries professional responsibilities that go beyond person
 - Compare AI outputs across different tools (ChatGPT, Gemini, Claude) for important analyses
 - Always verify statistical claims and data outputs before presenting them
 - Remember: the goal is to build **your** capability, not to outsource your thinking
+
+---
+
+**Attribution:** This page was written with the help of AI.
 
 ---
 
